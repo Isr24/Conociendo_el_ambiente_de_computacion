@@ -1,0 +1,19 @@
+Niveles de permisos para archivos
+
+*Propietario (U): Se refiere al usuario que genera o crea un archivo/carpeta dentro de un directorio de trabajo teniendo principalmente 
+acceso a la información de los archivos y/o directorios existentes en su HOME.
+*Grupos (G): Compendio de usuario a quienes se le conceden determinados privilegios en el sistema. 
+*Restos de usuarios (O): Usuarios que pueden no pertenecer al grupo de trabajo en el que está el archivo 
+
+Tipos de permisos archivos
+Lectura (r): Listar, copiar o visualizar el contenido
+Escritura (w): Modificar o borrar el contenido 
+Ejecución (x): Ejecutar el contenido.
+
+Se usan utilizando el comano chmod. 
+Equivalencias: r=4, w=2, x=1, -=0 (Nota, este símbolo "-" puede indicar el tipo de archivo)	
+
+Ejemplo: Si se tiene lo siguiente -rwxr--rw-   se puede decir que 1)el propietario tiene permiso de Lectura, escritura y ejecución, 2)El 
+grupo tiene permiso unicamente de lectura y, 3) el resto de los usuarios tiene permiso de lectura y escritura. 
+
+

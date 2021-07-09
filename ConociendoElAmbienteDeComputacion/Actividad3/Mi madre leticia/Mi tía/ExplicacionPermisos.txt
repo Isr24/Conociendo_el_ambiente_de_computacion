@@ -1,0 +1,28 @@
+Niveles de permisos para Carpetas
+
+*Propietario (U): Se refiere al usuario que genera o crea un archivo/carpeta dentro de un directorio de trabajo teniendo principalmente 
+acceso a la información de los archivos y/o directorios existentes en su HOME.
+*Grupos (G): Compendio de usuario a quienes se le conceden determinados privilegios en el sistema. 
+*Restos de usuarios (O): Usuarios que pueden no pertenecer al grupo de trabajo en el que está el archivo 
+
+Tipos de permisos archivos
+Lectura (r): Listar, copiar o visualizar el contenido
+Escritura (w): Modificar o borrar el contenido 
+Ejecución (x): Ejecutar el contenido.
+
+°Para indicar a todos los usuarios implicados, es decir "U", "G" y "O" se utilizará "a" que significa "all", es decir, todas
+las categorías anteriores
+Para indicar la suma de un permiso se utilizará "+" y, para indicar la eliminación de un permiso se utilizará "-". 
+
+Dentro de esta dinámica se pueden utilizar el comando "chmod", "chown" (change owner, cambiar propietario) y/o "chgrp" (change group, cambiar grupo).
+Así los pasos son: Comando  usuario  archivo(s)
+
+De esta manera la sintaxis puede ejemplificarse de la siguiente manera:  
+
+°chown Elena Concurso
+°chgrp Participantes Concurso
+ 
+
+¬
+
+	
